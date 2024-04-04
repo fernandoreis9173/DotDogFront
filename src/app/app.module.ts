@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatTableModule } from '@angular/material/table';
 
 // import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -39,6 +40,7 @@ const RxJS = [LoaderInterceptor, HttpStatus]
     FormsModule,
     MatDialogModule,
     MatButtonModule,
+    MatTableModule
 
     // NgxSpinnerModule
   ],

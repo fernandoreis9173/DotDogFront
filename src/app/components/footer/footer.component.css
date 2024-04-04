@@ -1,0 +1,35 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fcb042; /* Cor de fundo do rodapé */
+    color: #000000; /* Cor do texto do rodapé */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.footerPrincipal{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.imagemlogoFooter{
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footerDireitos{
+    font-family: Georgia, serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 35%;
+}

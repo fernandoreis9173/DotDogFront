@@ -4,6 +4,8 @@ import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { NavbarModule } from '../../components/navbar/navbar.module';
 // import { SidebarModule } from 'src/app/components/sidebar/sidebar.module';
+import { FooterModule } from '../../components/footer/footer.module';
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule(
@@ -14,7 +16,9 @@ import { NavbarModule } from '../../components/navbar/navbar.module';
             CommonModule,
             HomeRoutingModule,
             NavbarModule,
-            // SidebarModule
+            MatTableModule,
+            // SidebarModule,
+            FooterModule
         ]
     }
 )
